@@ -1,0 +1,191 @@
+h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: hsl(241, 100%, 89%);
+  margin: 0;
+  padding: 1.3rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: hsl(224, 30%, 27%);
+  margin: 0.4rem;
+}
+
+body {
+  font-size: 0.9rem;
+  margin: 0;
+  color: hsl(241, 100%, 89%);
+}
+
+main {
+  width: 370px;
+  margin: 0 auto 3rem;
+}
+
+.resultSection {
+  background: -webkit-gradient(linear, left top, left bottom, from(hsl(252, 100%, 67%)), color-stop(25%), to(hsl(241, 81%, 54%)));
+  background: linear-gradient(hsl(252, 100%, 67%), 25%, hsl(241, 81%, 54%));
+  border-radius: 0 0 30px 30px;
+  text-align: center;
+  width: 100%;
+}
+.resultSection h2 {
+  color: hsl(221, 100%, 96%);
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+.resultSection em {
+  font-size: 2.7rem;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+}
+.resultSection div:first-of-type {
+  background-color: hsla(241, 72%, 46%, 0.3);
+  border-radius: 50%;
+  height: 13rem;
+  aspect-ratio: 1/1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+}
+.resultSection div:last-child {
+  margin: 0 auto;
+  padding: 1.5rem;
+  width: 75%;
+}
+.resultSection div:last-child h2 {
+  margin: 0;
+  padding: 0;
+}
+.resultSection div:last-child p {
+  margin-top: 0.4rem;
+}
+
+.summarySection {
+  background-color: hsl(0, 0%, 100%);
+  display: grid;
+  gap: 1rem;
+  width: 85%;
+  margin: 0 auto;
+}
+.summarySection h2 {
+  font-size: 1rem;
+  padding-top: 1.3rem;
+}
+
+.flexWrapper {
+  border-radius: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+}
+.flexWrapper em {
+  font-size: 0.9rem;
+  font-weight: 900;
+  color: hsl(224, 30%, 27%);
+}
+.flexWrapper b {
+  font-weight: 600;
+}
+.flexWrapper span {
+  color: hsl(241, 100%, 89%);
+  padding: 0.6rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  word-spacing: 0.2rem;
+}
+.flexWrapper div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.4rem;
+}
+.flexWrapper:nth-of-type(1) {
+  background-color: rgba(255, 87, 87, 0.1);
+  color: #ff5757;
+}
+.flexWrapper:nth-of-type(2) {
+  background-color: rgba(255, 176, 31, 0.1);
+  color: #ffb01f;
+}
+.flexWrapper:nth-of-type(3) {
+  background-color: rgba(0, 189, 145, 0.1);
+  color: #00bd91;
+}
+.flexWrapper:nth-of-type(4) {
+  background: rgba(17, 37, 212, 0.1);
+  color: #1125d4;
+}
+
+button {
+  border-radius: 1.4rem;
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1.1rem;
+  font-weight: 600;
+  height: 3rem;
+  margin-top: 1rem;
+}
+button:hover {
+  background-color: hsl(241, 81%, 54%);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 650px) {
+  h1 {
+    padding-top: 2rem;
+  }
+  body {
+    height: 95vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: hsl(221, 100%, 96%);
+    font-size: 1rem;
+  }
+  main {
+    width: 650px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 7px 15px rgba(120, 128, 196, 0.582);
+            box-shadow: 0px 7px 15px rgba(120, 128, 196, 0.582);
+  }
+  .resultSection {
+    border-radius: 20px;
+  }
+  .summarySection {
+    margin-left: -1rem;
+    padding: 0 2rem 2rem 2.7rem;
+    z-index: -1;
+  }
+}/*# sourceMappingURL=style.css.map */
